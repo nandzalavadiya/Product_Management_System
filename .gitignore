@@ -1,0 +1,65 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/repositories.config
+*.lock.json
+
+## Secrets and configuration
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+.env
+*.pfx
+*.key
+secrets.json
+
+## User Secrets
+%APPDATA%/Microsoft/UserSecrets/
+
+## Rider
+.idea/
+
+## Visual Studio Code
+.vscode/
+
+## JetBrains
+*.sln.iml
+.idea
+
+## Windows
+Thumbs.db
+Desktop.ini
+
+## Logs
+*.log
+logs/
+
+## Test results
+TestResults/
+coverage/
+*.coveragexml
+
+## Docker
+.dockerignore
